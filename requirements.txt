@@ -1,0 +1,7 @@
+flask
+flask_socketio
+torch
+transformers
+kafka-python
+gunicorn
+gevent

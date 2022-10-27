@@ -1,0 +1,3 @@
+#! /usr/bin/bash
+service nginx start &&
+gunicorn -k gevent -w 1 --bind 0.0.0.0:8000 app:app
