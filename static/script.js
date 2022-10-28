@@ -1,7 +1,7 @@
 const msgerForm = get(".msger-inputarea");
 const msgerInput = get(".msger-input");
 const msgerChat = get(".msger-chat");
-var socket = io.connect("localhost:8000");
+var socket = io.connect("localhost:80");
 // Icons made by Freepik from www.flaticon.com
 const BOT_IMG = "https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/chatbot-icon.svg";
 const PERSON_IMG = "https://www.svgrepo.com/show/105517/user-icon.svg";
