@@ -3,7 +3,10 @@ This project implements a chatbot web application using the Microsoft DialoGPT m
 
 ## To run locally
 1. Clone this repo.
-2. Install docker using your distribution's package manager or follow the instructions on the official [website](https://docs.docker.com/engine/install/) and also install docker-compose.
+2. Install docker using your distribution's package manager or follow the instructions on the official [website](https://docs.docker.com/engine/install/) and also [install docker-compose](https://docs.docker.com/compose/install/linux/).
 3. Open a terminal and change your working directory.
 
     ```cd transformers_chatbot_kafka```
+4. Build and run the containers by typing the following command.
+
+    ```docker-compose up --build```
