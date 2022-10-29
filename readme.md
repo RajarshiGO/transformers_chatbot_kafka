@@ -1,5 +1,6 @@
 # Conversational Chatbot using Microsoft DialoGPT and Apache Kafka
-This project implements a chatbot web application using the Microsoft DialoGPT model from [hugginface.co](https://huggingface.co/microsoft/DialoGPT-medium). The web application is created using Flask and Flask-SocketIO and to leverage the power of distributed computing, the Apache Kafka messaging platform is used. The [confluent docker images](https://developer.confluent.io/quickstart/kafka-docker/) has been used to setup Kafka and to make things simple the entire project has been containerized.
+![Demo](https://github.com/RajarshiGO/transformers_chatbot_kafka/demo.gif)
+This project implements a chatbot as a web application using the Microsoft DialoGPT model from [hugginface.co](https://huggingface.co/microsoft/DialoGPT-medium). The web application is created using Flask and Flask-SocketIO and to leverage the power of distributed computing, the Apache Kafka messaging platform is used. The [confluent docker images](https://developer.confluent.io/quickstart/kafka-docker/) has been used to setup Kafka and to make things simple the entire project has been containerized.
 
 Check it out [here](https://kafka-transformer-chatbot.azurewebsites.net/).
 
